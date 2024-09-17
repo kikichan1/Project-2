@@ -24,16 +24,27 @@ Please have the following Python libraries installed using pip:
 
 2.2. Setup Steps
 
-- First, clone the repository to your local machine using Git: git clone https://github.com/kikichan1/Project-2.git
-- Navigate into the project directory: cd Project-2
-- Create a virtual environment: python -m venv venv (on Windows) venv\Scripts\activate (on macOS/Linux) source venv/bin/activate
-- Install dependencies pip install -r requirements.txt
-- Install Jupyter Lab pip install jupyterlab
+- First, clone the repository to your local machine using Git:
+  git clone https://github.com/kikichan1/Project-2.git
+- Navigate into the project directory:
+  cd Project-2
+- Create a virtual environment:
+  python -m venv venv (on Windows)
+  venv\Scripts\activate (on macOS/Linux)
+  source venv/bin/activate
+- Install dependencies:
+  pip install -r requirements.txt
+- Install Jupyter Lab:
+  pip install jupyterlab
 
 3. Usage Instructions
 
-- Activate the developer environment and open start Jupyter Lab conda activate dev jupyter kernelspec list jupyter lab
-- Restart the kernel Run the code
+- Activate the developer environment and open start Jupyter Lab:
+  conda activate dev
+  jupyter kernelspec list
+  jupyter lab
+- Restart the kernel
+- Run the code
 
 4. Features
 
